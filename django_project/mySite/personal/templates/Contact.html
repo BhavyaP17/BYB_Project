@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bhavya Contact Details</title>
+    <link rel="icon" href="{% static 'assets/favicon.ico' %}">
+    <link rel="stylesheet" href="{% static 'assets/css/style.css' %}">
+</head>
+<body>
+        <h2>Contact Details</h2>
+        <p>
+            Phone: +44 7452818897 | Email: bhavya1710@gmail.com <br>
+            LinkedIn: <a href="https://www.linkedin.com/in/bhavya-patteeswaran-38a23916/" target="_blank">My LinkedIn Profile</a> <br>
+            GitHub: <a href="https://github.com/BhavyaP17" target="_blank">My GitHub Profile</a> <br>
+            Address: 8, Millennium Court, Basingstoke, Hampshire, UK, RG21 7RA.
+        </p>
+        <hr>
+        <form action="mailto:bhavya1710@gmail.com" method="post" enctype="text/plain">
+            <label>Your Name:</label>
+            <input type="text" name="YourName" value=""><br>
+            <label>Your Email:</label>
+            <input type="email" name="YourEmail" value=""><br>
+            <label>Your Message:</label><br>
+            <textarea name="YourMessage" rows="10" cols="30"></textarea><br>
+            <input type="submit" name="">
+        </form>
+</body>
+</html>

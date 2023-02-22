@@ -1,0 +1,15 @@
+This folder contains the assets for the html files added.
+
+LOADING STATIC FILES:
+
+- If you have rendered your HTML files correctly and started up your development server, you will notice that your web pages exclude any stylesheets, images etc.
+
+- You will need to load these in by creating a new folder in your webapp directory called static/.
+
+- You then have to place the following code right at the beginning of your relevant HTML file (e.g. index.html) in the templates/ directory:
+{% load static %}
+
+- Also, you have to reference your items accordingly (for example an image tag would be):
+<img src="{% static 'assets/image.jpg' %}">
+
+- The image.jpg is in another folder in static called assets.

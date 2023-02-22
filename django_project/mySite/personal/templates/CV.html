@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bhavya Patteeswaran CV</title>
+    <link rel="stylesheet" href="{% static 'assets/css/style.css' %}">
+    <link rel="icon" href="{% static 'assets/favicon.ico' %}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap"
+          rel="stylesheet">
+</head>
+<body>
+    <div class="top_container">
+        <img class="my-photo" src="{% static 'assets/BhavyaPhoto2.jpg' %}" alt="Bhavya Profile picture">
+        <h1>Bhavya Patteeswaran</h1>
+        <p>
+            <em><strong>Role:</strong> Software Developer/ ETL Developer/ Data Analyst</em>
+            <br><br>
+            <a class="btn" href="/Contact" target="_blank">Contact Me</a>
+        </p>
+    </div>
+    <hr>
+    <div class="intro">
+        <h2>Short Bio</h2>
+        <h3>Objective:</h3>
+        <p>
+            A highly motivated and enthusiastic Data Analyst, actively seeking a full-time position in a unique
+            and challenging work environment. Fast leaner and quick to adapt to new challenges, technologies,
+            and skills. Strong in analytical skill, problem-solving, attention to detail and good in written
+            & oral communication. Interests span across the areas of Business Intelligence, Data Analytics,
+            Database Technologies, Web services and Cloud Computing.
+        </p>
+
+        <h3>My Strength:</h3>
+        <p>
+            Detail-oriented, Self-Learner, Flexibility, Communication skill, Team Collaboration, Task prioritization,
+            Analytical thinking.
+        </p>
+
+        <h3>My Weakness:</h3>
+        <p>
+            Self-criticism, Multitasking, Tendency to take on too much responsibility.
+        </p>
+
+        <h3>My Hobbies:</h3>
+        <p>
+            Learning new skills, Trying to resolve coding problem, Reading books, Listening music.
+        </p>
+        <hr>
+    </div>
+    <div class="skill-list">
+        <h3>Technical Skills:</h3>
+        <img class="skill-img" src="{% static 'assets/TechnicalSkill.png' %}" alt="skill-img">
+        <ul style="list-style-type:disc;">
+            <li>Programming and Scripting: SQL, Python, HTML, CSS</li>
+            <li>ETL Tools: Informatica PowerCenter 9.x, 10 Informatica Data Quality, MDM, IICS</li>
+            <li>RDBMS Technologies: MSSQL Server T-SQL, Oracle 11g/10g/9i PL-SQL, PostgreSQL, MYSQL, Django, MongoDB</li>
+            <li>Scheduling Tools: Autosys, Informatica Workflow Scheduler</li>
+            <li>Tools: Salesforce (Data Loader and Workbench), TOAD, Visio, Eclipse, GitHub, Visual Studio Code, Pycharm</li>
+            <li>Operating Systems: Windows, Linux, Unix </li>
+            <li>SDLC Development Models: Waterfall, V-Model, Agile</li>
+            <li>Software / Applications: MS Word, MS Excel, MS Access, Outlook, PowerPoint</li>
+            <li>Reporting Tool: Power BI</li>
+        </ul>
+        <hr>
+    </div>
+    <div class="Professional-Experience">
+        <h3>Professional Experience:</h3>
+        <img class="exp-img" src="{% static 'assets/Experience.png' %}" alt="experience-img">
+        <h4>Senior Informatica Developer and Analyst [Mar 2011 - Jul 2016]<br>
+            Accenture Services Private Limited, Chennai, India</h4>
+        <p> <strong>Industry:</strong> Products - Life Sciences – Pharmaceutical, Industrial Equipment, ICM<br>
+            <strong>Tools & Technologies:</strong> Informatica PowerCenter, IDQ, MDM, IICS, Oracle, MS SQL Server,
+            Salesforce, Unix <br>
+            Experienced in SDLC ETL development from requirement gathering, design, development, testing, debugging,
+            documentation, implementation, deployment, production, UAT and Support. <br>
+            Created SQL/UNIX shell scripts to develop test plans and test scripts to administer unit & integration
+            testing. <br>
+            Recognized from Accenture’s Competency Assessment Management System as P3 – Advanced Proficiency
+            on Primary Skill Informatica BI Tool and P2 – Proficient in Data Quality and Product Life Sciences.<br>
+            Worked in Client and Home offices in Spain and Germany for the Business meeting and successful
+            deployment in production and UAT.
+        </p>
+        <hr>
+    </div>
+    <div class="Education">
+        <h3>Education:</h3>
+        <table>
+            <thead>
+                <th>Degree</th>
+                <th>Year</th>
+                <th>Institute/University</th>
+                <th>Percentage/Class/Grade</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>MBA - Human Resource Management</td>
+                    <td>2012-2014</td>
+                    <td>Anna University, Chennai, India</td>
+                    <td>First Class</td>
+                </tr>
+                <tr>
+                    <td>B.E - Electronics and Communication Engineering</td>
+                    <td>2006-2010</td>
+                    <td>KLN College of Information Technology, Anna University, Chennai, India</td>
+                    <td>First Class with distinction</td>
+                </tr>
+                <tr>
+                    <td>Higher secondary school board/ 12th</td>
+                    <td>2005-2006</td>
+                    <td>TamilNadu Government Board, India</td>
+                    <td>82% - A</td>
+                </tr>
+                <tr>
+                    <td>SSLC (Matriculation)/ 10th</td>
+                    <td>2003-2004</td>
+                    <td>TamilNadu Government Board, India</td>
+                    <td>85.45% - A</td>
+                </tr>
+            </tbody>
+        </table>
+        <br>
+        <hr>
+    </div>
+    <div class="projects">
+        <h3>Projects:</h3>
+        <p>
+            HyperionDev – Software Engineering Bootcamp [Dec 2022 – Mar 2023]
+            <a href="https://www.hyperiondev.com/portfolio/112904/" target="_blank">HyperionDev Portfolio</a> <br>
+            Programming: Python, HTML, CSS, OOPS, Version Control and Git, NLP, Django, SQL
+        <ul style="list-style-type:disc;">
+        <li><a href="https://github.com/BhavyaP17/Capstone-Project-I--Variables-and-Control-Structures"
+               target="_blank">Capstone Project I</a>
+            - Financial calculators: an investment calculator and a home loan repayment
+            calculator using variables and control structures in python.</li>
+        <li><a href="https://github.com/BhavyaP17/Capstone-Project-II--Files"
+               target="_blank">Capstone Project II</a>
+            – Creating a program for a small business that can help it to manage tasks
+            assigned to each member of the team using files in python.</li>
+        <li><a href="https://github.com/BhavyaP17/Capstone-Project-III--Lists-Functions-and-String-Handling"
+               target="_blank">Capstone Project III</a>
+            – Using lists, functions, and string handling in python to extend the
+            functionality of Capstone project II.</li>
+        <li><a href="https://github.com/BhavyaP17/Capstone-Project-IV-OOP"
+               target="_blank">Capstone Project IV</a>
+            – Create real-time project for inventory warehouse using Object-Oriented Programming (OOPS).</li>
+        <li> Capstone Project V – Creating Database Using python and SQL.</li>
+        </ul>
+        </p>
+        <hr>
+    </div>
+    <div class="Certification">
+        <h3>Certification:</h3>
+        <p>
+        <ul>
+            <li>Microsoft Excel 2019 by uCertify – Issued on Dec 2022.</li>
+            <li>Guided Project on Complex Retrieval Queries in MySQL Workbench authorized by Coursera Project
+                Network on Oct 2022.</li>
+            <li>Guided Project on Prepare, Clean, Transform, and Load Data using Power BI by Coursera Project
+                Network - Issued on Oct 2022.</li>
+            <li>SQL - Data Reporting and Analysis by LinkedIn - Issued on Sep 2022.</li>
+            <li>SQL Programming by Reed.co.uk - Issued on May 2022 [Credential ID 331788].</li>
+            <li>HR Management by Oxford Home Study College (OHSC) - Issued on Sep 2022
+                [Certification Number CR21269].</li>
+            <li>Salesforce Certified Platform Developer I 401DEV - Issued on Oct 2014
+                [Certification Number 2056599].</li>
+            <li>Certified Green Field Training in Informatica and Functional testing from Accenture.</li>
+        </ul>
+        </p>
+    </div>
+    <div class="bottom-container">
+        <p class="copyright">© 2023 Bhavya Patteeswaran.</p>
+    </div>
+    </body>
+</html>
